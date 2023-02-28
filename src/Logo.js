@@ -1,18 +1,15 @@
-import React from 'react';
-import { Image, keyframes, usePrefersReducedMotion } from '@chakra-ui/react';
-import logo from './logo.svg';
+import React from "react";
+import { Box, Heading, ChakraProvider } from "@chakra-ui/react";
+import customTheme from "../utils/Theme";
 
-const spin = keyframes`
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-`;
-
-export const Logo = props => {
-  const prefersReducedMotion = usePrefersReducedMotion();
-
-  const animation = prefersReducedMotion
-    ? undefined
-    : `${spin} infinite 20s linear`;
-
-  return <Image animation={animation} src={logo} {...props} />;
-};
+export default function Logo(props) {
+  return (
+    <ChakraProvider theme={customTheme}>
+      <Box {...props}>
+        <Heading>
+          Banter Shopping Site
+        </Heading>
+      </Box>
+    </ChakraProvider>
+  );
+}
