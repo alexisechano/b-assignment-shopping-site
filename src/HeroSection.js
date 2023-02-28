@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Container, chakra, Stack, Text} from '@chakra-ui/react';
+import { Container, chakra, Stack, Text } from '@chakra-ui/react';
 
 const HeroSection = () => {
   return (
-    <Container p={{ base: 10, sm: 14 }} h='calc(80vh)'>
+    <Container p={{ base: 10, sm: 14 }} h='calc(50vh)'>
       <Stack direction="column" spacing={8} alignItems="center">
         <chakra.h1
           fontSize={{ base: '4xl', sm: '5xl' }}
@@ -18,7 +18,7 @@ const HeroSection = () => {
               </Text>{' '}
         </chakra.h1>
         <Text maxW="550px" fontSize="xl" textAlign="center" color="gray.500">
-          Banter is the future of social e-commerce!
+          Banter is the future of social e-commerce and this is a test site like if you are selling the loafers below.
         </Text>
       </Stack>
     </Container>
