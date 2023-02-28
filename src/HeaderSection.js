@@ -75,7 +75,7 @@ const MenuLinks = ({ isOpen }) => {
       >
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/about-us">About Us </MenuItem>
-        <MenuItem to="/signup" isLast>
+        <MenuItem to="/buy" isLast>
           <Button
             size="sm"
             rounded="md"
@@ -85,7 +85,7 @@ const MenuLinks = ({ isOpen }) => {
               bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
             }}
           >
-            Create Account
+            Buy Things
           </Button>
         </MenuItem>
       </Stack>

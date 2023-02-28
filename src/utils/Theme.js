@@ -1,16 +1,14 @@
 import { extendTheme } from "@chakra-ui/react";
-import '@fontsource/source-sans-pro/400.css'
-import '@fontsource/quicksand/700.css'
 
 const colors = {
   primary: {
-    100: "#E5FCF1",
+    100: "#c2910a",
     200: "#27EF96",
     300: "#10DE82",
     400: "#0EBE6F",
-    500: "#0CA25F",
-    600: "#0A864F",
-    700: "#086F42",
+    500: "#c2910a",
+    600: "#c2910a",
+    700: "#c2910a",
     800: "#075C37",
     900: "#064C2E"
   }
